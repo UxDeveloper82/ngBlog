@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fix-it-50e4e": {
+      "hosting": {
+        "newsapp": [
+          "fix-it-50e4e"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fix-it-50e4e"
+  }
+}
