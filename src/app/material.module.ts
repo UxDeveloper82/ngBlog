@@ -19,6 +19,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatDividerModule } from '@angular/material/divider';
+import { ToolbarComponent } from './shared/components/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [],
