@@ -19,6 +19,7 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 import { NewPostModule } from './components/posts/new-post/new-post.module';
 import { ToolbarComponent } from './shared/components/toolbar/toolbar.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -35,6 +36,8 @@ import { ToolbarComponent } from './shared/components/toolbar/toolbar.component'
     NewPostModule,
     BrowserAnimationsModule,
     MaterialModule,
+    ReactiveFormsModule,
+    FormsModule,
     AngularFireStorageModule,
     AngularFireModule.initializeApp(environment.firebase),
     provideFirebaseApp(() => initializeApp(environment.firebase)),
