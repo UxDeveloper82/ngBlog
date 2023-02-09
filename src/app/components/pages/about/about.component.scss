@@ -3,3 +3,24 @@
   color:#000;
   height: 10%;
 }
+
+/*--------------------------------------------------------------
+# Sections & Section Header
+--------------------------------------------------------------*/
+section {
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.section-header {
+  border-bottom: 2px solid var(--color-black);
+}
+
+.section-header h2 {
+  font-size: 50px;
+  color: var(--color-black);
+}
+
+.section-header p {
+  margin-bottom: 0;
+}
